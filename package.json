@@ -1,7 +1,7 @@
 {
-  "name": "__NAME__",
+  "name": "nested-to-flat",
   "version": "1.0.0",
-  "description": "Template repo for js functions",
+  "description": "A utility to flatten nested objects based on specified keys",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,25 +10,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saxjst/__NAME__.git"
+    "url": "git+https://github.com/muceres/nested-to-flat.git"
   },
   "author": {
-    "name": "saxjst"
+    "name": "muceres"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saxjst/__NAME__/issues"
+    "url": "https://github.com/muceres/nested-to-flat/issues"
   },
-  "homepage": "https://github.com/saxjst/__NAME__#readme",
+  "homepage": "https://github.com/muceres/nested-to-flat#readme",
   "engines": {
     "node": ">=10.16.3"
   },
-  "keywords": [],
-  "dependencies": {
-    "ramda": "0.28.0"
-  },
+  "keywords": [
+    "nested",
+    "flatten",
+    "object",
+    "utility"
+  ],
   "devDependencies": {
     "coveralls": "3.1.1",
-    "jest": "28.1.3"
+    "jest": "^28.1.3"
   }
 }
